@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Allure First Lecture">
+    <listeners>
+        <listener class-name="Listener.AllureListener"/>
+    </listeners>
+
+    <test name="Test Login Form ">
+        <classes>
+            <class name="FormTestFluent"/>
+            <class name="FormTestFluentCopy"/>
+        </classes>
+    </test>
+</suite>
